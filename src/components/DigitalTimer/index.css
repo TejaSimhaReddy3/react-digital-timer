@@ -1,0 +1,106 @@
+.bgContainer {
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.timerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 250px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+.timeElapsed {
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+.timeHeading {
+  font-size: 28px;
+  color: #00d9f5;
+  font-weight: bold;
+  margin: 6px;
+}
+.labelText {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+  text-align: center;
+}
+.timeDisplayContainer {
+  display: flex;
+}
+.timeStateContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.timeControlButton {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin-right: -5px;
+  margin-left: -5px;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.timeStateImageClass {
+  width: 15%;
+  margin: 5px;
+}
+.timeStateP {
+  font-weight: bold;
+  font-size: 18px;
+}
+.pillaPara {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  margin-left: -30px;
+}
+.limitsController {
+  display: flex;
+}
+.timerPlusMinusButtons {
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+.timeInMinutesContainer {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5, #cffcf1);
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+.timeControllerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
